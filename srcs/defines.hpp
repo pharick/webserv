@@ -1,0 +1,6 @@
+#ifndef WEBSERV_DEFINES_HPP
+#define WEBSERV_DEFINES_HPP
+
+#define BUFF_LEN 1024
+
+#endif // WEBSERV_DEFINES_HPP
