@@ -1,6 +1,6 @@
 # webserv
 
-**Educational project of an HTTP server in C++. The project was completed at School 21.**
+**Educational project of an HTTP server in C++. The project was completed at Ecole42.**
 
 ## Key Features
 
