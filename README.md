@@ -1,17 +1,17 @@
 # webserv
 
-**Учебный проект HTTP-сервера на C++. Проект выполнен в Школе 21.**
+**Educational project of an HTTP server in C++. The project was completed at School 21.**
 
-## Основные особенности
+## Key Features
 
-- Обрабатывает соеденинения с клиентами используя мультиплексирование ввода/вывода (функцию poll)
-- Раздает статические файлы
-- Обрабатывает методы GET, HEAD, POST, PUSH
-- Умеет обрабатывать chunked body
-- Настраивается через конфигурационный файл
-- Позволяет создавать несколько виртуальных серверов и настраивать обработку разных url в зависимости от префикса или расширения (location)
-- Умеет передавать запросы на обработку cgi-скриптам
+- Handles client connections using input/output multiplexing (poll function).
+- Serves static files.
+- Handles GET, HEAD, POST, and PUSH methods.
+- Supports chunked body processing.
+- Configurable through a configuration file.
+- Allows creating multiple virtual servers and configuring different URL handling based on prefix or extension (location).
+- Capable of forwarding requests to CGI scripts.
 
-## Сборка и запуск
+## Build and Run
 
 make && ./webserv [config_file]
